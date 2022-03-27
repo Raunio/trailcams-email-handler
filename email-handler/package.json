@@ -1,0 +1,22 @@
+{
+  "name": "email_handler",
+  "version": "1.0.0",
+  "description": "Email handler for Trailcams app",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mailparser": "^3.4.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.5.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "prettier": "^2.5.1"
+  }
+}
